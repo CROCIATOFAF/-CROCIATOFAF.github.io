@@ -14,18 +14,18 @@ body {
 }
 
 ul {
-  // @include no-marg-padd;
+  @include no-marg-padd;
   list-style: none;
 }
 
 p {
-  // @include no-marg-padd;
+  @include no-marg-padd;
 }
 
 h2,
 h3,
 h4 {
-  // @include no-marg-padd;
+  @include no-marg-padd;
 }
 
 *,

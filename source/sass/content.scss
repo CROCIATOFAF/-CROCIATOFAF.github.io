@@ -1,0 +1,60 @@
+html {
+  // color: $dark-blue;
+  box-sizing: border-box;
+}
+
+body {
+  @include no-marg-padd;
+  display: flex;
+  flex-direction: column;
+  // background: $main-background-color;
+  -webkit-text-size-adjust: none;
+
+  min-width: 320px;
+}
+
+ul {
+  // @include no-marg-padd;
+  list-style: none;
+}
+
+p {
+  // @include no-marg-padd;
+}
+
+h2,
+h3,
+h4 {
+  // @include no-marg-padd;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="button"],
+input[type="submit"],
+select {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
